@@ -10,7 +10,7 @@ export class AppComponent {
   title = 'toast-app';
   toastTypes: Array<string> = [];
   constructor(private toastService: ToastService) {
-    this.toastTypes = ['sucess', 'info', 'warning', 'danger'];
+    this.toastTypes = ['success', 'info', 'warning', 'danger'];
    }
 
   // sucess, info, warning, danger
